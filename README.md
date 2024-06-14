@@ -12,8 +12,8 @@ React-TS App with Vite
 
 ### Clone the Repository
 
-git clone 
-cd your-repo-name
+- git clone 
+- cd your-repo-name
 
 ## Install Dependencies
 npm install
