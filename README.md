@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+React-TS App with Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- React with TypeScript
+- Vite for fast development and build
+- Editable user profiles
+- Real-time signature preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Clone the Repository
 
-- Configure the top-level `parserOptions` property like this:
+git clone 
+cd your-repo-name
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Install Dependencies
+npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+npm run dev
+
+
+
+I've spent around 3 hours on this project. If given more time I would add several enhancements to this project.
+
+- Firstly, I would add redux for state managment, it would improve the scalability and maintainence of the app. 
+- I would also use StyledComponents or MUI for cleaner styling instead of inline styling.
+- Integrate API to fetch data and persist user, to give it more real world application experience.
+- Implement Authentication to secure application.
+
+Thanks for the opportunity :)
+
+
