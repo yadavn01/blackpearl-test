@@ -7,6 +7,7 @@ import users from './data/users';
 function App() {
   const [selectedUser, setSelectedUser] = useState<string | null>(null);
 
+
   return (
     <>
       <h1>BlackPearl test</h1>
@@ -14,8 +15,6 @@ function App() {
       <UserList users={users} onSelectUser={setSelectedUser} />
       <UserProfile selectedUser={selectedUser} />
     </div>
-
-
     </>
   )
 }
